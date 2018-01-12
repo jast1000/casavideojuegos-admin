@@ -1,0 +1,23 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+    	"atk4/ui": "dev-develop",
+        "atk4/chart": "dev-master",
+        "atk4/report": "dev-develop"
+    },
+    "repositories": [
+      {
+          "type": "package",
+          "package": {
+              "name": "atk4/report",
+              "version": "dev-develop",
+              "type": "package",
+              "source": {
+                  "url": "git@github.com:atk4/report.git",
+                  "type": "git",
+                  "reference": "develop"
+              }
+          }
+      }
+    ]
+}
